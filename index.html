@@ -10,7 +10,7 @@
     <meta property="og:image" content="http://helenandjon.github.io/wedding/images/masthead.jpg" />
     <meta property="fb:app_id" content="941291529282619" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
-    <title>Ginny and Kevin</title>
+    <title>Helen and Jon</title>
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -74,16 +74,17 @@
         </div>
 
         <div class="row events section-break">
-          <div class="col-xs-6 col-sm-4 col-sm-offset-2 wiggle" data-sr='{ "origin": "left", "distance": "20%" }'>
+          <!-- <div class="col-xs-6 col-sm-4 col-sm-offset-2 wiggle" data-sr='{ "origin": "left", "distance": "20%" }'> -->
+          <div class="col-xs-6 col-sm-4 wiggle" >
             <h4 class="block-heading">Ceremony</h4>
-            <p>5:30pm in the afternoon</p>
+            <p>11:30am</p>
             <i class="icon icon-ring"></i>
           </div>
-          <div class="col-xs-6 col-sm-4 wiggle" data-sr='{ "origin": "right", "distance": "20%" }'>
+          <!-- <div class="col-xs-6 col-sm-4 wiggle" data-sr='{ "origin": "right", "distance": "20%" }'>
             <h4 class="block-heading">Reception</h4>
             <p>7:00pm in the evening</p>
             <i class="icon icon-dinner"></i>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -95,7 +96,7 @@
               zoom: 13,
               scrollwheel: false,
               draggable: false,
-              center: {lat: 49.2005908, lng: -122.9902374},
+              center: {lat: 49.275425, lng: -123.0106517},
               mapTypeId: google.maps.MapTypeId.TERRAIN,
               mapTypeControlOptions: {
                 mapTypeIds: []
@@ -103,13 +104,13 @@
             });
 
             var marker = new google.maps.Marker({
-              position: {lat: 49.2005908, lng: -122.9902374},
+              position: {lat: 49.275425, lng: -123.0106517},
               map: map,
               animation: google.maps.Animation.DROP,
-              title: 'Riverway Clubhouse'
+              title: '크로스한인교회'
             });
             var infowindow = new google.maps.InfoWindow({
-              content:'<strong>Riverway Clubhouse</strong><br>9001 Bill Fox Way, Burnaby BC'
+              content:'<strong>Willingdon Heights United Church</strong><br>4304 Parker Street, Burnaby BC'
             });
 
             google.maps.event.addListener(marker, 'click', function(){ infowindow.open(map,marker); });
@@ -129,22 +130,25 @@
         <hr />
         <div id="gallery-images">
           <img src="images/1-canUadjustcolorforme.jpg" class="wow fadeIn animated" />
-          <img src="images/IMG_2383.jpg" class="wow fadeIn animated" />
-          <img src="images/DSCN1393.jpg" class="wow fadeIn animated" />
-          <img src="images/DSCN4828.jpg" class="wow fadeIn animated" />
-          <img src="images/2015-04-22.jpg" class="wow fadeIn animated" />
-          <img src="images/DSC02324.jpg" class="wow fadeIn animated" />
-          <img src="images/DSC_0294.jpg" class="wow fadeIn animated" />
-          <img src="images/IMG_2237.jpg" class="wow fadeIn animated" />
-          <img src="images/DSC_0828.jpg" class="wow fadeIn animated" />
+          <img src="images/KakaoTalk_Photo_2016-08-06-16-32-05.jpeg" class="wow fadeIn animated" />
+          <img src="images/KakaoTalk_Photo_2016-08-06-16-32-40.jpeg" class="wow fadeIn animated" />
+          <img src="images/KakaoTalk_Photo_2016-08-06-16-32-51.jpeg" class="wow fadeIn animated" />
+          <img src="images/KakaoTalk_Photo_2016-08-06-16-32-08.jpeg" class="wow fadeIn animated" />
+          <!-- <img src="images/KakaoTalk_Photo_2016-08-06-16-32-15.jpeg" class="wow fadeIn animated" /> -->
+          <img src="images/KakaoTalk_Photo_2016-08-06-16-32-25.jpeg" class="wow fadeIn animated" />
+          <img src="images/KakaoTalk_Photo_2016-08-06-16-32-34.jpeg" class="wow fadeIn animated" />
+          <img src="images/KakaoTalk_Photo_2016-08-06-16-32-43.jpeg" class="wow fadeIn animated" />
+          <img src="images/KakaoTalk_Photo_2016-08-06-16-32-52.jpeg" class="wow fadeIn animated" />
+          <img src="images/KakaoTalk_Photo_2016-08-06-16-32-00.jpeg" class="wow fadeIn animated" />
+          <img src="images/KakaoTalk_Photo_2016-08-06-16-32-08.jpeg" class="wow fadeIn animated" />
         </div>
       </div>
-      <div class="rsvp-now">
+      <!-- <div class="rsvp-now">
         <a href="#rsvp" data-scroll>RSVP Now</a>
-      </div>
+      </div> -->
     </section>
 
-    <section id="rsvp" class="fullscreen" data-parallax="scroll" data-speed="0" data-image-src="images/rsvp.jpg">
+    <!-- <section id="rsvp" class="fullscreen" data-parallax="scroll" data-speed="0" data-image-src="images/rsvp.jpg">
       <div class="container">
         <div class="rsvp-wrapper row rsvp-thankyou hidden">
           <div class="rsvp-container col-md-8 col-md-offset-2">
@@ -230,7 +234,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section id="comments"  class="overlay">
       <div id="fb-root"></div>
